@@ -42,7 +42,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 # export DJANGO_DEBUG=False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [https://django-testmb.herokuapp.com/]
 
 
 # Application definition
