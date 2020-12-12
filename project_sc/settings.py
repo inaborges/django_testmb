@@ -42,7 +42,7 @@ STATIC_URL = '/static/'
 # import os
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag')
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = False
+DEBUG = False
 
 # SECURITY WARNING: don't run with debug turned on in production! 
 # DEBUG = True
@@ -50,7 +50,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 # DEBUG = os.environ.get('DJANGO_DEBUG', '') = False
 # DEBUG = os.getenv('DEBUG', False) == 'True'
 
-export DJANGO_DEBUG=False
+# export DJANGO_DEBUG=False
 
 ALLOWED_HOSTS = ['django-testmb.herokuapp.com']
 
