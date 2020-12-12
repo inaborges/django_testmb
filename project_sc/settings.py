@@ -50,7 +50,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&
 # DEBUG = os.environ.get('DJANGO_DEBUG', '') != True
 # DEBUG = os.getenv('DEBUG', False) == 'True'
 
-DJANGO_DEBUG = False
+DJANGO_DEBUG = 'False'
 
 # export DJANGO_DEBUG=False
 
