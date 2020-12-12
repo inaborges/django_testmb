@@ -1,2 +1,1 @@
-web: gunicorn site:django-testmb
-web: gunicorn locallibrary.wsgi --log-file -
+web: gunicorn django_testmb.wsgi --log-file -
