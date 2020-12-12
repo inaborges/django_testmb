@@ -76,7 +76,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'project_scientia.urls'
+ROOT_URLCONF = 'project_sc.urls'
 
 TEMPLATES = [
     {
